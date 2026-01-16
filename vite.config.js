@@ -13,6 +13,22 @@ export default defineConfig({
   server: {
     hmr: {
       overlay: true
+    },
+    port: 5173,
+    host: true
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'react-vendor': ['react', 'react-dom'],
+          'three-vendor': ['three', '@react-three/fiber', '@react-three/drei'],
+          'motion-vendor': ['framer-motion']
+        }
+      }
     }
   },
   optimizeDeps: {

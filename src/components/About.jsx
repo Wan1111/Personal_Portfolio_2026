@@ -94,9 +94,6 @@ const About = () => {
                     </div>
                   </motion.div>
 
-                  {/* Decorative Corner Elements */}
-                  <div className="absolute top-4 right-4 w-16 h-16 border-2 border-white/30 rounded-full"></div>
-                  <div className="absolute top-8 right-8 w-8 h-8 border-2 border-primary-400/50 rounded-full"></div>
                 </div>
               </motion.div>
             </div>
