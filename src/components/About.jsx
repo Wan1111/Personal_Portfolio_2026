@@ -164,7 +164,7 @@ const About = () => {
                 <div>
                   <h4 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Location</h4>
                   <p className="text-gray-700 dark:text-gray-300">
-                    #27 Dao St. Town and Country Executive Village
+                    Antipolo, Rizal
                   </p>
                 </div>
               </div>

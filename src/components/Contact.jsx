@@ -111,7 +111,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white mb-1">Location</h4>
                   <p className="text-gray-600 dark:text-gray-300">
-                    #27 Dao St. Town and Country Executive Village
+                    Antipolo, Rizal
                   </p>
                 </div>
               </motion.div>
